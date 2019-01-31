@@ -1,6 +1,6 @@
 // input - given string
 char highestOccurringChar(char input[]) {
-    // Write your code here
+   
 int len=0,count=0,i,j;
   int max1=0;
   char max;
