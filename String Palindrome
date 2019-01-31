@@ -1,0 +1,41 @@
+
+bool checkPalindrome(char str[]){
+  int i,n,length=0;
+  
+  char revs[100000],temp;
+  
+  for(i=0;str[i]!='\0';i++)
+  {
+    length++;
+    revs[i]=str[i];
+  }
+  int j=length-1;
+  for(i=0;i<length/2;i++)
+  {
+  
+    temp=revs[i];
+    revs[i]=revs[j];
+    revs[j]=temp;
+    j--;
+  }
+  
+  for(i=0;str[i]!='\0';i++)
+  {
+  if(revs[i]==str[i])
+  {
+    continue;
+    
+  }
+  else return 0;
+  }
+  return 1;
+
+
+  /* Don't write main().
+   *  Don't read input, it is passed as function argument.
+   *  Return output and don't print it.
+   *  Taking input and printing output is handled automatically.
+   */
+
+
+}
