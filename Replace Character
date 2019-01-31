@@ -1,0 +1,18 @@
+void replaceCharacter(char input[], char c1, char c2) {
+  int i;
+  for(i=0;input[i]!='\0';i++)
+  {
+    if(input[i]=='c')
+    {
+     input[i]=c2;   
+    }
+  }
+  
+    /* Don't write main().
+     * Don't read input, it is passed as function argument.
+     * No need to print or return the output. 
+     * Change in the given input string itself.
+     * Taking input and printing output is handled automatically.
+     */
+    
+}
