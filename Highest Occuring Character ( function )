@@ -4,6 +4,7 @@ char highestOccurringChar(char input[]) {
 int len=0,count=0,i,j;
   int max1=0;
   char max;
+  // calculating length
   for(i=0;input[i]!=0;i++)
   {
     len++;
