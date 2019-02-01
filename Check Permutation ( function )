@@ -6,12 +6,10 @@ bool isPermutation(char input1[], char input2[]) {
   {
     len1++;
   }
-  //cout<<len1;
   for(int i=0;input2[i]!=0;i++)
   {
     len2++;
   }
-  //cout<<len2;
   if(len1==len2)
   {
     for(int i=0;i<len1;i++)
@@ -21,7 +19,7 @@ bool isPermutation(char input1[], char input2[]) {
         if(input1[i]==input2[j])
         {
           input2[j]='S';
-			break;
+	  break;
         }
          if(j==len2-1)
         return false;
@@ -35,7 +33,5 @@ bool isPermutation(char input1[], char input2[]) {
   }
   return false;
 }
-
-    // Write your code here
 
 
