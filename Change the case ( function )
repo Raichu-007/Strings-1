@@ -1,0 +1,17 @@
+// Update in the given string itself. No need to return or print anything.
+
+void convertStringToLowerCase(char input[]) {
+    // Write your code here
+//32
+  int k;
+  for(int i=0;input[i]!=0;i++)
+    
+  {
+    if(input[i]!=' ')
+    {k=input[i];
+    input[i]=k+32;
+    }
+    if(input[i]==' '|| '\n')
+    {continue;}
+  }
+}
