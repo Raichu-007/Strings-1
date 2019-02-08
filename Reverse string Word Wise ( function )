@@ -15,6 +15,7 @@ int i,j,length=0,temp,s,e,count=0;
       input[i]=input[j];
       input[j]=temp;
     }
+    
   for(i=0;i<=length;i++)
   { 
     if(input[i]==' '||input[i]=='\0')
