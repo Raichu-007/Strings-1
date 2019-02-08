@@ -4,7 +4,8 @@ void reverseEachWord(char inp[]) {
   
 int s=0,e,i,length=0;
   
-  { for(i=0;inp[i]!='\0';i++)
+  //calculating length
+  for(i=0;inp[i]!='\0';i++)
   {
     length++;
   }
