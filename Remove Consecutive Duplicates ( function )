@@ -8,6 +8,7 @@ int length=0,k=0;
 {
   length++;
 }
+
   for(int i=0;i<length;i++)
   {
     if(input[i]==input[i+1])
@@ -20,6 +21,7 @@ int length=0,k=0;
       k++;
     }
   }
+  
   arr[k]=0;
   for(int j=0;j<=k;j++)
   {
