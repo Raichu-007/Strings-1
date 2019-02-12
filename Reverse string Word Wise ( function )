@@ -29,5 +29,5 @@ int i,j,length=0,temp,s,e,count=0;
       count=i+1;
     }
    
-}
+  }
 }
