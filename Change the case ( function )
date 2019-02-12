@@ -6,7 +6,8 @@ void convertStringToLowerCase(char input[]) {
     
   {
     if(input[i]!=' ')
-    {k=input[i];
+    {
+    k=input[i];
     input[i]=k+32;
     }
     if(input[i]==' '|| '\n')
