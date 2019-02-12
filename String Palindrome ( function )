@@ -1,5 +1,6 @@
 
-bool checkPalindrome(char str[]){
+bool checkPalindrome(char str[])
+{
   int i,n,length=0;
   
   char revs[100000],temp;
