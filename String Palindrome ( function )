@@ -3,7 +3,7 @@ bool checkPalindrome(char str[])
 {
   int i,n,length=0;
   
-  char revs[100000],temp;
+  char revs[10000],temp;
   
   for(i=0;str[i]!='\0';i++)
   {
