@@ -25,7 +25,6 @@ bool checkPalindrome(char str[])
   if(revs[i]==str[i])
   {
     continue;
-    
   }
   else return 0;
   }
