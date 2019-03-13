@@ -1,6 +1,7 @@
 // input - given string
 
-void reverseEachWord(char inp[]) {
+void reverseEachWord(char inp[])
+{
   
 int s=0,e,i,length=0;
   
@@ -27,6 +28,7 @@ int s=0,e,i,length=0;
       s=i+1;
       }
     }
+    
    
     }
 }
