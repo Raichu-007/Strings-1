@@ -1,7 +1,8 @@
 // input1 - first input string
 // input2 - second input string
 
-bool isPermutation(char input1[], char input2[]) {
+bool isPermutation(char input1[], char input2[])
+{
     int len1=0,len2=0;
   for(int i=0;input1[i]!=0;i++)
   {
@@ -33,6 +34,7 @@ bool isPermutation(char input1[], char input2[]) {
   
   return true;
   }
+  
   return false;
 }
 
