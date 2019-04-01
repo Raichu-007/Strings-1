@@ -1,7 +1,7 @@
 
-void convertStringToLowerCase(char input[]) {
-    
-  int k;
+void convertStringToLowerCase(char input[])
+{
+   int k;
   for(int i=0;input[i]!=0;i++)
     
   {
