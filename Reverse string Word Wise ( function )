@@ -3,18 +3,18 @@
 void reverseStringWordWise(char input[])
 {
     
-   int i,j,length=0,temp,s,e,count=0;
-  //calculating length
-   for( i=0;input[i]!='\0';i++)
-  {
-    length++;
-  }
+    int i,j,length=0,temp,s,e,count=0;
+    //calculating length
+    for( i=0;input[i]!='\0';i++)
+   {
+     length++;
+   }
   
-   for( i=0,j=length-1;i<j;i++,j--)
-    {
-      temp=input[i];
-      input[i]=input[j];
-      input[j]=temp;
+  for( i=0,j=length-1;i<j;i++,j--)
+   {
+     temp=input[i];
+     input[i]=input[j];
+     input[j]=temp;
     }
     
   for(i=0;i<=length;i++)
