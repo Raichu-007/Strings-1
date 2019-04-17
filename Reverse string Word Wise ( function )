@@ -9,12 +9,13 @@ void reverseStringWordWise(char input[])
    {
      length++;
    }
-  
-  for( i=0,j=length-1;i<j;i++,j--)
+ 
+ for( i=0,j=length-1;i<j;i++,j--)
    {
      temp=input[i];
      input[i]=input[j];
      input[j]=temp;
+     
     }
     
   for(i=0;i<=length;i++)
@@ -27,8 +28,11 @@ void reverseStringWordWise(char input[])
         input[s]=input[e];
         input[e]=temp;
       }
+      
       count=i+1;
+      
     }
    
   }
+  
 }
