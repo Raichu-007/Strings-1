@@ -1,17 +1,18 @@
 // input - given string
 
-void removeConsecutiveDuplicates(char input[]) {
+void removeConsecutiveDuplicates(char input[]) 
+{
    
-int length=0,k=0;
+  int length=0,k=0;
   char arr[10000];
   for(int i=0;input[i]!=0;i++)
 {
   length++;
 }
 
-  for(int i=0;i<length;i++)
-  {
-    if(input[i]==input[i+1])
+ for(int i=0;i<length;i++)
+ {
+   if(input[i]==input[i+1])
     {
       continue;
     }
@@ -20,7 +21,7 @@ int length=0,k=0;
       arr[k]=input[i];
       k++;
     }
-  }
+ }
   
   arr[k]=0;
   for(int j=0;j<=k;j++)
