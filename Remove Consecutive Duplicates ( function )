@@ -23,9 +23,10 @@ void removeConsecutiveDuplicates(char input[])
     }
  }
   
-  arr[k]=0;
-  for(int j=0;j<=k;j++)
-  {
-    input[j]=arr[j];
-  }
+ arr[k]=0;
+ for(int j=0;j<=k;j++)
+ {
+   input[j]=arr[j];
+ }
+ 
 }
