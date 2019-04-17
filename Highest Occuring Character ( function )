@@ -16,8 +16,8 @@ char highestOccurringChar(char input[])
   {
     count=0;
     for(j=0;j<len;j++)
-   {  
-      if(i==j)
+    {  
+       if(i==j)
         continue;
       if(i!=j)
       {
@@ -25,8 +25,8 @@ char highestOccurringChar(char input[])
         {
           count++;
         }
-        
-    }
+      }
+      
     }
       if(max1<count)
       {
@@ -36,4 +36,5 @@ char highestOccurringChar(char input[])
     
   }
   return max;
+  
 }
