@@ -19,6 +19,7 @@ void reverseStringWordWise(char input[])
      
     }
     
+    
   for(i=0;i<=length;i++)
   { 
     if(input[i]==' '||input[i]=='\0')
