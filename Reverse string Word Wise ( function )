@@ -30,7 +30,6 @@ void reverseStringWordWise(char input[])
       }
       
       count=i+1;
-      
     }
    
   }
