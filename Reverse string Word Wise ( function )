@@ -2,7 +2,6 @@
 
 void reverseStringWordWise(char input[])
 {
-    
     int i,j,length=0,temp,s,e,count=0;
     //calculating length
     
