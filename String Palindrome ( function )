@@ -5,13 +5,13 @@ bool checkPalindrome(char str[])
   
   char revs[10000],temp;
   
-  for(i=0;str[i]!='\0';i++)
+  for(i=0; str[i]!='\0'; i++)
   {
     length=length+1;
     revs[i]=str[i];
   }
   int j=length-1;
-  for(i=0;i<length/2;i++)
+  for(i=0; i<length/2; i++)
   {
   
     temp=revs[i];
