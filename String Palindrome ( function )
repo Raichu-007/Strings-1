@@ -7,7 +7,7 @@ bool checkPalindrome(char str[])
   
   for(i=0;str[i]!='\0';i++)
   {
-    length++;
+    length=length+1;
     revs[i]=str[i];
   }
   int j=length-1;
@@ -17,7 +17,7 @@ bool checkPalindrome(char str[])
     temp=revs[i];
     revs[i]=revs[j];
     revs[j]=temp;
-    j--;
+    j=j-1;
   }
   
   for(i=0;str[i]!='\0';i++)
