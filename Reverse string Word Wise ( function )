@@ -7,7 +7,7 @@ void reverseStringWordWise(char input[])
     
     for( i=0;input[i]!='\0';i++)
    {
-     length++;
+     lengthlength+1;
    }
  
  for( i=0,j=length-1;i<j;i++,j--)
@@ -20,9 +20,9 @@ void reverseStringWordWise(char input[])
     
   for(i=0;i<=length;i++)
   { 
-    if(input[i]==' '||input[i]=='\0')
+    if(input[i]== ' '||input[i]== '\0')
     {
-      for(s=count,e=i-1;s<e;s++,e--)
+      for(s=count, e=i-1; s<e; s++,e--)
       {
         temp=input[s];
         input[s]=input[e];
