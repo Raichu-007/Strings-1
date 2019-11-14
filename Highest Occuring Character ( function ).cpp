@@ -33,8 +33,6 @@ char highestOccurringChar(char input[])
         max1=count;
         max=input[i];
       }
-    
   }
   return max;
-  
 }
