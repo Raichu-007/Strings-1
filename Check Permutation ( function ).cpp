@@ -23,18 +23,12 @@ bool isPermutation(char input1[], char input2[])
           input2[j]='S';
 	  break;
         }
-         
 	 if(j==len2-1)
-        return false;
-     
-      }
-      
-       
-    }
-  
+        return false; 
+      }      
+    }  
   return true;
-  }
-  
+  } 
   return false;
 }
 
