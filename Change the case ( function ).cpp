@@ -1,4 +1,4 @@
-
+//function to convert string characters into lowercase
 void convertStringToLowerCase(char input[])
 {
    int k;
