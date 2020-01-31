@@ -11,6 +11,7 @@ void convertStringToLowerCase(char input[])
     }
     if(input[i]==' '|| '\n')
     
+       
     {
     continue;
     }
